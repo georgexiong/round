@@ -7,6 +7,10 @@
 # Visit http://www.pragmaticprogrammer.com/titles/rails4 for more book information.
 #---
 Round::Application.routes.draw do
+  get "static_pages/home"
+
+  get "static_pages/help"
+
   resources :line_items
 
 
